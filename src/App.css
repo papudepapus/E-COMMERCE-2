@@ -1,0 +1,18 @@
+.shop-container {
+    display: flex;
+    margin: 15px;
+    gap: 15px;
+}
+
+.filters-column {
+    flex-shrink: 0;
+    position: fixed;
+    width: 200px;
+    position: sticky; 
+    border-radius: 8px;
+    align-self: flex-start; 
+}
+
+.products-container {
+  flex-grow: 1; 
+}

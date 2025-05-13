@@ -1,0 +1,48 @@
+.filters {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 170px;
+    top: 80px;
+    left: 10px;
+    color: #ffffff;
+    background-color: #2a2a2a;
+    position: fixed;
+}
+
+.filters div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #2196F3;
+}
+
+
+select {
+    padding: 0.5rem;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    background-color: #2a2a2a; 
+    color: #ffffff;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ff9800;
+}
+
+
+span {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ff9800;
+    margin-top: 0.5rem;
+}
