@@ -3,7 +3,7 @@ import { products as initialProducts } from './mocks/products.json'
 import { Products } from './components/Products'
 import Header from './components/Header'
 import Footer from './components/Footer'
-import { IS_DEVELOPMENT } from './config'
+//import { IS_DEVELOPMENT } from './config'
 import { useFilters } from './hooks/useFilters'
 import { Cart } from './components/Cart.jsx'
 import { CartProvider } from './context/cart.jsx'
@@ -31,7 +31,7 @@ function App() {
           <Products products={filteredProducts} />
         </main>
       </div>
-      {IS_DEVELOPMENT && <Footer />}
+      <Footer />
     </CartProvider>
   )
 }
